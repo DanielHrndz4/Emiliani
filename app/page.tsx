@@ -78,7 +78,7 @@ export default function Component() {
   const heroOpacity = useTransform(scrollY, [0, 300], [1, 0])
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-white overflow-hidden">
       {/* Header */}
       <motion.header
         initial={{ y: -100 }}
@@ -186,7 +186,7 @@ export default function Component() {
               initial={{ opacity: 0, y: 40 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 1.2 }}
-              className="grid grid-cols-3 gap-8 max-w-md mx-auto"
+              className="grid grid-cols-3 gap-5 max-w-md mx-auto"
             >
               {[
                 { number: "82", label: "Años de Historia" },
