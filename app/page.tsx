@@ -150,7 +150,7 @@ export default function Component() {
             >
               <Badge className="mb-6 bg-slate-100 text-slate-700 hover:bg-slate-200 transition-colors">
                 <Award className="w-3 h-3 mr-1" />
-                Proyecto Académico 2024
+                Proyecto Académico 2025
               </Badge>
             </motion.div>
 
@@ -503,7 +503,7 @@ function HistoriaSection() {
                     transition={{ duration: 0.3 }}
                   >
                     <Image
-                      src="/dsdm-3.jpg"
+                      src="/v-imagen-3.jpg"
                       alt="Propuesta futurista - Maqueta"
                       fill
                       className="object-cover transition-transform duration-300 group-hover:scale-105"
@@ -517,7 +517,7 @@ function HistoriaSection() {
                     >
                       <Badge className="bg-slate-800 text-white">
                         <Rocket className="w-3 h-3 mr-1" />
-                        Propuesta 2024
+                        Propuesta 2025
                       </Badge>
                     </motion.div>
                   </motion.div>
